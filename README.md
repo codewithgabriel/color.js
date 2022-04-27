@@ -7,6 +7,8 @@ Quick start
 ```shell
   npm install colorjs
 ```
+or
+
 ```shell 
 git clone https://github.com/codewithgabriel/colorjs.git
 cp colorjs/color.js your_project_directory
