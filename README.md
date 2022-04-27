@@ -65,35 +65,19 @@ blink
   console.log(color.blink(msg_colored));
   ```
   
-  Methods Definations
+  Methods Definitions
   -------------------
   ```javascript
-  yellow = (value) => {
-        return `\x1b[33m${value}${this.end()}`.trim()
-    }
-  ```
+    yellow() //formet console with yello color
+ 
    
-    bold = (value) => {
-        return `\x1b[1m${value}${this.end()}`.trim()
-    }
-    lightblack = (value)=>{
-        return `\x1b[02m${value}${this.end()}`.trim()
-    }
-    blink = (value)=>{
-        return `\x1b[05m${value}${this.end()}`.trim()
-    }
-    underline = (value)=>{
-        return `\x1b[04m${value}${this.end()}`.trim()
-    }
-    italic = (value)=>{
-        return `\x1b[03m${value}${this.end()}`.trim()
-    }
-    whitebg = (value)=>{
-        return `\x1b[07m${value}${this.end()}`.trim()
-    }
-    deepblack = (value)=>{
-        return `\x1b[30m${value}${this.end()}`.trim()
-    }
+    bold() //format console with bold
+    lightblack () //format console with lightblack
+    blink() //makes console log blink
+    underline() //underline the given content
+    italic() //format console in italic
+    whitebg() //gives with background to console log
+    deepblack() //format console deepblack
     red = (value)=>{
         return `\x1b[31m${value}${this.end()}`.trim()
     }
