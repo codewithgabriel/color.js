@@ -37,7 +37,7 @@ index.js
  ```
  Background and foreground
  ```javascript
- const color = require('./color.js');
+  const color = require('./color.js');
   let msg = "Hello from Colorjs";
   let msg_colored = color.green(msg);
   //this logs msg value with white background color and foreground of green to the console
