@@ -22,7 +22,7 @@ index.js
 ```javascript
   const color = require('./color.js');
   let msg = "Hello from Colorjs";
-  //this logs msg value with red color in the console
+  //this logs msg value with red color to the console
   console.log(color.red(msg));
   
  ```
@@ -31,6 +31,16 @@ index.js
 ```javascript
   const color = require('./color.js');
   let msg = "Hello from Colorjs";
-  //this logs msg value with red color in the console
-  console.log(color.red(msg));
+  //this logs msg value with white background color to the console
+  console.log(color.whitesmokebg(msg));
   
+ ```
+ Background and foreground
+ ```javascript
+ const color = require('./color.js');
+  let msg = "Hello from Colorjs";
+  let msg_colored = color.green(msg);
+  //this logs msg value with white background color and foreground of green to the console
+  console.log(color.whitesmokebg(msg_colored));
+ ```
+ 
