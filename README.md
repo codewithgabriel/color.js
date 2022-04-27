@@ -4,7 +4,9 @@ Color.js is a small Javascript framework for formating console logs in colored r
 
 Quick start
 -----------
-
+```shell
+  npm install colorjs
+```
 ```shell 
 git clone https://github.com/codewithgabriel/colorjs.git
 cp colorjs/color.js your_project_directory
