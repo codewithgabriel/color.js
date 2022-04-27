@@ -27,7 +27,6 @@ index.js
   
  ```
 For background 
-index.js
 ```javascript
   const color = require('./color.js');
   let msg = "Hello from Colorjs";
@@ -44,3 +43,19 @@ index.js
   console.log(color.whitesmokebg(msg_colored));
  ```
  
+ italic
+ ```javascript
+  const color = require('./color.js');
+  let msg = "Hello from Colorjs";
+  let msg_colored = color.green(msg);
+  //this logs msg value with italic format to the console
+  console.log(color.italic(msg_colored));
+ ```
+
+blink
+ ```javascript
+  const color = require('./color.js');
+  let msg = "Hello from Colorjs";
+  let msg_colored = color.green(msg);
+  //this logs msg value with blinking format to the console
+  console.log(color.blink(msg_colored));
