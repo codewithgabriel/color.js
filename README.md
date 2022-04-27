@@ -22,5 +22,15 @@ index.js
 ```javascript
   const color = require('./color.js');
   let msg = "Hello from Colorjs";
+  //this logs msg value with red color in the console
   console.log(color.red(msg));
+  
  ```
+For background 
+index.js
+```javascript
+  const color = require('./color.js');
+  let msg = "Hello from Colorjs";
+  //this logs msg value with red color in the console
+  console.log(color.red(msg));
+  
